@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1047512701009",
+    "project_id": "huaweiproject-efd1a",
+    "storage_bucket": "huaweiproject-efd1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047512701009:android:b70a79d58150b3e1aa8070",
+        "android_client_info": {
+          "package_name": "com.example.devapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047512701009-sigpfcjetvmidbh27t589kvc4i0l7k0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByK48X70sHBg3Wm5wNFkrWs3cVG89Qdv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047512701009-sigpfcjetvmidbh27t589kvc4i0l7k0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/signup"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpEmail"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_bg"
+        android:layout_below="@+id/signup"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/edittext_bg"
+        android:layout_below="@+id/signUpEmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm_Password"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:hint="Confirm Password"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_bg"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+    
+    <TextView
+        android:id="@+id/signUp_bawah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_below="@+id/confirm_Password"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="30dp"/>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/signIn_shape"
+        android:layout_below="@+id/signUp_bawah"
+        android:background="@drawable/shape_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/or_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:text="or" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Sign In"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_toRightOf="@id/or_signUp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/signup_right_or"/>
+
+
+    </RelativeLayout>
+
+    <com.huawei.hms.ads.banner.BannerView
+        android:id="@+id/hw_banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        hwads:adId="testw6vs28auh3"
+        hwads:bannerSize="BANNER_SIZE_360_57"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

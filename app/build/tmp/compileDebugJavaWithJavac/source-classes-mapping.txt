@@ -1,0 +1,35 @@
+com/example/devapp/Activity4.java
+ com.example.devapp.Activity4
+com/example/devapp/Activity7.java
+ com.example.devapp.Activity7
+com/example/devapp/Recycleview_Adapter.java
+ com.example.devapp.Recycleview_Adapter
+ com.example.devapp.Recycleview_Adapter$viewHolder
+com/example/devapp/BuildConfig.java
+ com.example.devapp.BuildConfig
+com/example/devapp/AdSampleApplication.java
+ com.example.devapp.AdSampleApplication
+com/example/devapp/Activity2.java
+ com.example.devapp.Activity2
+com/example/devapp/Activity3.java
+ com.example.devapp.Activity3
+com/example/devapp/SignUpEmail.java
+ com.example.devapp.SignUpEmail
+ com.example.devapp.SignUpEmail$1
+ com.example.devapp.SignUpEmail$1$1
+ com.example.devapp.SignUpEmail$1$2
+ com.example.devapp.SignUpEmail$1$3
+ com.example.devapp.SignUpEmail$2
+com/example/devapp/LoginEmail.java
+ com.example.devapp.LoginEmail
+ com.example.devapp.LoginEmail$1
+ com.example.devapp.LoginEmail$1$1
+ com.example.devapp.LoginEmail$1$2
+ com.example.devapp.LoginEmail$1$3
+ com.example.devapp.LoginEmail$2
+com/example/devapp/MainActivity.java
+ com.example.devapp.MainActivity
+ com.example.devapp.MainActivity$1
+ com.example.devapp.MainActivity$2
+ com.example.devapp.MainActivity$3
+ com.example.devapp.MainActivity$4

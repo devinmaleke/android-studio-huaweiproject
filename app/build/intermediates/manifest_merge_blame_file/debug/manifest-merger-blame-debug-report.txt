@@ -1,0 +1,1031 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.devapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:13:5-68
+13-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:13:22-65
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:14:5-65
+14-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:14:22-62
+15    <uses-permission android:name="android.permission.READ_CALENDAR" />
+15-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:15:5-72
+15-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:15:22-69
+16    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+16-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:16:5-73
+16-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:16:22-70
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:19:5-76
+17-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:19:22-73
+18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+18-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:20:5-83
+18-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:20:22-80
+19    <uses-permission android:name="com.huawei.permission.sec.MDM.v2" />
+19-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:21:5-72
+19-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:21:22-69
+20    <uses-permission android:name="com.hihonor.permission.sec.MDM.v2" />
+20-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:22:5-73
+20-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:22:22-70
+21    <uses-permission android:name="android.permission.GET_TASKS" />
+21-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:23:5-68
+21-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:23:22-65
+22    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+22-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:24:5-73
+22-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:24:22-70
+23    <uses-permission android:name="com.huawei.permission.sec.ACCESS_UDID" />
+23-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:25:5-77
+23-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:25:22-74
+24    <uses-permission android:name="com.hihonor.permission.sec.ACCESS_UDID" />
+24-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:26:5-78
+24-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:26:22-75
+25    <uses-permission android:name="com.huawei.permission.app.DOWNLOAD" />
+25-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:27:5-74
+25-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:27:22-71
+26    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+26-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:28:5-77
+26-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:28:22-74
+27    <uses-permission android:name="com.android.permission.GET_INSTALLED_APPS" />
+27-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:29:5-81
+27-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:29:22-78
+28    <uses-permission android:name="com.hihonor.permission.MANAGE_FOLD_SCREEN" />
+28-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:30:5-81
+28-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:30:22-78
+29    <uses-permission android:name="com.hihonor.permission.MANAGE_FOLD_SCREEN_PRIVILEGED" />
+29-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:31:5-92
+29-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:31:22-89
+30    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+30-->[com.huawei.hms:ads-splash:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ca83dbe7f85c458574583316cf10f90b\ads-splash-13.4.51.300\AndroidManifest.xml:12:5-75
+30-->[com.huawei.hms:ads-splash:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ca83dbe7f85c458574583316cf10f90b\ads-splash-13.4.51.300\AndroidManifest.xml:12:22-72
+31
+32    <application
+32-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:5:5-32:19
+33        android:allowBackup="true"
+33-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:6:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.5.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\99eab6d36c15628ea6ee736253a950eb\core-1.5.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:extractNativeLibs="false"
+37        android:icon="@mipmap/ic_launcher"
+37-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:7:9-43
+38        android:label="Football Team List"
+38-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:8:9-43
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:9:9-54
+40        android:supportsRtl="true"
+40-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:10:9-35
+41        android:testOnly="true"
+42        android:theme="@style/Theme.huawei" >
+42-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:11:9-44
+43        <activity android:name="com.example.devapp.SignUpEmail" >
+43-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:12:9-18:20
+43-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:12:19-64
+44            <intent-filter>
+44-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:13:13-17:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:14:17-69
+45-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:14:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:16:17-77
+47-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:16:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.example.devapp.LoginEmail" >
+50-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:19:9-22:20
+50-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:19:19-63
+51        </activity>
+52        <activity android:name="com.example.devapp.Activity7" />
+52-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:24:9-65
+52-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:24:19-62
+53        <activity android:name="com.example.devapp.Activity4" />
+53-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:25:9-65
+53-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:25:19-62
+54        <activity android:name="com.example.devapp.Activity3" />
+54-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:26:9-65
+54-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:26:19-62
+55        <activity android:name="com.example.devapp.Activity2" />
+55-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:27:9-65
+55-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:27:19-62
+56        <activity android:name="com.example.devapp.MainActivity" >
+56-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:28:9-31:20
+56-->D:\Devin Files\HuaweiProject\app\src\main\AndroidManifest.xml:28:19-65
+57        </activity>
+58        <activity
+58-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+59            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+59-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+60            android:excludeFromRecents="true"
+60-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+61            android:exported="true"
+61-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+62            android:launchMode="singleTask"
+62-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+63-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+64            <intent-filter>
+64-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+65                <action android:name="android.intent.action.VIEW" />
+65-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+65-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+67-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+68-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+69
+70                <data
+70-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+71                    android:host="firebase.auth"
+71-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+72                    android:path="/"
+72-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+73                    android:scheme="genericidp" />
+73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+77            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+82            <intent-filter>
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+87
+88                <data
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+89                    android:host="firebase.auth"
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+90                    android:path="/"
+90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+91                    android:scheme="recaptcha" />
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+92            </intent-filter>
+93        </activity>
+94
+95        <service
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+96            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+97            android:enabled="true"
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+99            <intent-filter>
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+100                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+101
+102                <category android:name="android.intent.category.DEFAULT" />
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+103            </intent-filter>
+104        </service>
+105        <service
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+106            android:name="com.google.firebase.components.ComponentDiscoveryService"
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+107            android:directBootAware="true"
+107-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\073b217d3d1aaa5137d1d005469106fc\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+108            android:exported="false" >
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+109            <meta-data
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+110                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fe4b9eefd73f607f085e60b115c955ba\firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+113                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+113-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fe4b9eefd73f607f085e60b115c955ba\firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fe4b9eefd73f607f085e60b115c955ba\firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+115        </service>
+116
+117        <meta-data
+117-->[com.huawei.hms:ads-lite:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\3ce8c4bc7f04bae658eff60ee5aeb1b7\ads-lite-13.4.51.300\AndroidManifest.xml:13:9-15:52
+118            android:name="com.huawei.hms.client.service.name:ads-lite"
+118-->[com.huawei.hms:ads-lite:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\3ce8c4bc7f04bae658eff60ee5aeb1b7\ads-lite-13.4.51.300\AndroidManifest.xml:14:13-71
+119            android:value="ads-lite:13.4.51.300" />
+119-->[com.huawei.hms:ads-lite:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\3ce8c4bc7f04bae658eff60ee5aeb1b7\ads-lite-13.4.51.300\AndroidManifest.xml:15:13-49
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\073b217d3d1aaa5137d1d005469106fc\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\073b217d3d1aaa5137d1d005469106fc\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+123            android:authorities="com.example.devapp.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\073b217d3d1aaa5137d1d005469106fc\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+124            android:directBootAware="true"
+124-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\073b217d3d1aaa5137d1d005469106fc\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+125            android:exported="false"
+125-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\073b217d3d1aaa5137d1d005469106fc\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+126            android:initOrder="100" />
+126-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\073b217d3d1aaa5137d1d005469106fc\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+127
+128        <activity
+128-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ed4ee14058046286c242987b65f73958\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+129            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+129-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ed4ee14058046286c242987b65f73958\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+130            android:exported="false"
+130-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ed4ee14058046286c242987b65f73958\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ed4ee14058046286c242987b65f73958\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+132
+133        <meta-data
+133-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fa9586f2d1cf846cda38bff7639690e8\play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+134            android:name="com.google.android.gms.version"
+134-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fa9586f2d1cf846cda38bff7639690e8\play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+135            android:value="@integer/google_play_services_version" />
+135-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fa9586f2d1cf846cda38bff7639690e8\play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+136        <meta-data
+136-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:34:9-36:35
+137            android:name="hw.theme_type"
+137-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:35:13-41
+138            android:value="273" />
+138-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:36:13-32
+139        <meta-data
+139-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:37:9-39:72
+140            android:name="permission.reason.android.permission-group.CALENDAR"
+140-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:38:13-79
+141            android:resource="@string/hiad_calender_description_new" />
+141-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:39:13-69
+142
+143        <uses-library
+143-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:41:9-43:40
+144            android:name="org.apache.http.legacy"
+144-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:42:13-50
+145            android:required="false" />
+145-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:43:13-37
+146
+147        <provider
+147-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:45:9-49:50
+148            android:name="com.huawei.openalliance.ad.ppskit.provider.PPSInstallFileProvider"
+148-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:46:13-93
+149            android:authorities="com.example.devapp.hiad.fileprovider"
+149-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:47:13-69
+150            android:exported="false"
+150-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:48:13-37
+151            android:grantUriPermissions="true" />
+151-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:49:13-47
+152        <provider
+152-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:50:9-53:40
+153            android:name="com.huawei.openalliance.ad.ppskit.provider.InnerApiProvider"
+153-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:51:13-87
+154            android:authorities="com.example.devapp.pps.innerapiprovider"
+154-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:52:13-72
+155            android:exported="false" />
+155-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:53:13-37
+156
+157        <service
+157-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:55:9-61:19
+158            android:name="com.huawei.android.hms.ppskit.PpsCoreService"
+158-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:56:13-72
+159            android:exported="false" >
+159-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:57:13-37
+160            <intent-filter>
+160-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:58:13-60:29
+161                <action android:name="com.huawei.android.hms.ppskit.PPS_API_SERVICE" />
+161-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:59:17-88
+161-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:59:25-85
+162            </intent-filter>
+163        </service>
+164
+165        <activity
+165-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:63:9-75:20
+166            android:name="com.huawei.openalliance.ad.ppskit.activity.InstallActivity"
+166-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:64:13-86
+167            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+167-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:65:13-134
+168            android:excludeFromRecents="true"
+168-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:66:13-46
+169            android:exported="false"
+169-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:67:13-37
+170            android:theme="@android:style/Theme.Light.NoTitleBar" >
+170-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:68:13-66
+171            <meta-data
+171-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+172                android:name="hwc-theme"
+172-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+173                android:value="androidhwext:style/Theme.Emui.Light.NoTitleBar" />
+173-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+174            <meta-data
+174-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+175                android:name="hnc-theme"
+175-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+176                android:value="androidhnext:style/Theme.magic.Light.NoTitleBar" />
+176-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+177        </activity>
+178        <activity
+178-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:76:9-88:20
+179            android:name="com.huawei.openalliance.ad.ppskit.activity.HMSSDKInstallActivity"
+179-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:77:13-92
+180            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+180-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:78:13-134
+181            android:excludeFromRecents="true"
+181-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:79:13-46
+182            android:exported="false"
+182-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:80:13-37
+183            android:theme="@android:style/Theme.Light.NoTitleBar" >
+183-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:81:13-66
+184            <meta-data
+184-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+185                android:name="hwc-theme"
+185-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+186                android:value="androidhwext:style/Theme.Emui.Light.NoTitleBar" />
+186-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+187            <meta-data
+187-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+188                android:name="hnc-theme"
+188-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+189                android:value="androidhnext:style/Theme.magic.Light.NoTitleBar" />
+189-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+190        </activity>
+191        <activity
+191-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:89:9-107:20
+192            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSActivity"
+192-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:90:13-82
+193            android:configChanges="screenLayout|screenSize|smallestScreenSize|orientation|keyboardHidden"
+193-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:91:13-106
+194            android:exported="false"
+194-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:92:13-37
+195            android:label=" "
+195-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:93:13-30
+196            android:screenOrientation="portrait" >
+196-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:94:13-49
+197            <intent-filter>
+197-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:95:13-99:29
+198                <action android:name="com.huawei.hms.pps.action.PPS_DETAIL" />
+198-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:96:17-79
+198-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:96:25-76
+199
+200                <category android:name="android.intent.category.DEFAULT" />
+200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+201            </intent-filter>
+202
+203            <meta-data
+203-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+204                android:name="hwc-theme"
+204-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+205                android:value="androidhwext:style/Theme.Emui" />
+205-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+206            <meta-data
+206-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+207                android:name="hnc-theme"
+207-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+208                android:value="androidhnext:style/Theme.magic" />
+208-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+209        </activity>
+210        <activity
+210-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:108:9-120:20
+211            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSActivity"
+211-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:109:13-87
+212            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+212-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:110:13-134
+213            android:exported="false"
+213-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:111:13-37
+214            android:label=" "
+214-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:112:13-30
+215            android:screenOrientation="portrait" >
+215-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:113:13-49
+216            <meta-data
+216-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+217                android:name="hwc-theme"
+217-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+218                android:value="androidhwext:style/Theme.Emui" />
+218-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+219            <meta-data
+219-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+220                android:name="hnc-theme"
+220-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+221                android:value="androidhnext:style/Theme.magic" />
+221-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+222        </activity>
+223        <activity
+223-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:121:9-133:20
+224            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSArActivity"
+224-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:122:13-89
+225            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+225-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:123:13-134
+226            android:exported="false"
+226-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:124:13-37
+227            android:label=" "
+227-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:125:13-30
+228            android:screenOrientation="portrait" >
+228-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:126:13-49
+229            <meta-data
+229-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+230                android:name="hwc-theme"
+230-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+231                android:value="androidhwext:style/Theme.Emui" />
+231-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+232            <meta-data
+232-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+233                android:name="hnc-theme"
+233-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+234                android:value="androidhnext:style/Theme.magic" />
+234-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+235        </activity>
+236        <activity
+236-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:134:9-155:20
+237            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSRewardActivity"
+237-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:135:13-88
+238            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation|uiMode"
+238-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:136:13-141
+239            android:exported="false"
+239-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:137:13-37
+240            android:screenOrientation="behind"
+240-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:138:13-47
+241            android:theme="@style/HiAdThemeNoActionBarFullScreen" >
+241-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:139:13-66
+242            <intent-filter>
+242-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:140:13-144:29
+243                <action android:name="com.huawei.hms.pps.action.PPS_REWARD" />
+243-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:141:17-79
+243-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:141:25-76
+244
+245                <category android:name="android.intent.category.DEFAULT" />
+245-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+245-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+246            </intent-filter>
+247
+248            <meta-data
+248-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+249                android:name="hwc-theme"
+249-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+250                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+250-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+251            <meta-data
+251-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+252                android:name="hnc-theme"
+252-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+253                android:value="androidhnext:style/Theme.magic.NoActionBar.Fullscreen" />
+253-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+254            <meta-data
+254-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:152:13-154:41
+255                android:name="android.notch_support"
+255-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:153:17-53
+256                android:value="false" />
+256-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:154:17-38
+257        </activity>
+258        <activity
+258-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:156:9-170:20
+259            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSRewardActivity"
+259-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:157:13-93
+260            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize|orientation"
+260-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:158:13-134
+261            android:exported="false"
+261-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:159:13-37
+262            android:theme="@style/HiAdThemeNoActionBarFullScreen" >
+262-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:160:13-66
+263            <meta-data
+263-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+264                android:name="hwc-theme"
+264-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+265                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+265-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+266            <meta-data
+266-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+267                android:name="hnc-theme"
+267-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+268                android:value="androidhnext:style/Theme.magic.NoActionBar.Fullscreen" />
+268-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+269            <meta-data
+269-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:152:13-154:41
+270                android:name="android.notch_support"
+270-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:153:17-53
+271                android:value="false" />
+271-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:154:17-38
+272        </activity>
+273        <activity
+273-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:171:9-186:20
+274            android:name="com.huawei.openalliance.ad.ppskit.activity.InnerPPSInterstitialAdActivity"
+274-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:172:13-101
+275            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize"
+275-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:173:13-122
+276            android:exported="false"
+276-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:174:13-37
+277            android:screenOrientation="sensor"
+277-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:175:13-47
+278            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+278-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:176:13-83
+279            <meta-data
+279-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+280                android:name="hwc-theme"
+280-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+281                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+281-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+282            <meta-data
+282-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+283                android:name="hnc-theme"
+283-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+284                android:value="androidhnext:style/Theme.magic.Translucent.NoTitleBar.Fullscreen" />
+284-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+285            <meta-data
+285-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:152:13-154:41
+286                android:name="android.notch_support"
+286-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:153:17-53
+287                android:value="false" />
+287-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:154:17-38
+288        </activity>
+289        <activity
+289-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:187:9-208:20
+290            android:name="com.huawei.openalliance.ad.ppskit.activity.InterstitialAdActivity"
+290-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:188:13-93
+291            android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|screenLayout|screenSize|smallestScreenSize"
+291-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:189:13-122
+292            android:exported="false"
+292-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:190:13-37
+293            android:screenOrientation="sensor"
+293-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:191:13-47
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+294-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:192:13-83
+295            <intent-filter>
+295-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:193:13-197:29
+296                <action android:name="com.huawei.hms.pps.action.PPS_INTERSTITIAL" />
+296-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:194:17-85
+296-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:194:25-82
+297
+298                <category android:name="android.intent.category.DEFAULT" />
+298-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+298-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+299            </intent-filter>
+300
+301            <meta-data
+301-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+302                android:name="hwc-theme"
+302-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+303                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+303-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+304            <meta-data
+304-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+305                android:name="hnc-theme"
+305-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+306                android:value="androidhnext:style/Theme.magic.Translucent.NoTitleBar.Fullscreen" />
+306-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+307            <meta-data
+307-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:152:13-154:41
+308                android:name="android.notch_support"
+308-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:153:17-53
+309                android:value="false" />
+309-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:154:17-38
+310        </activity>
+311        <activity
+311-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:209:9-220:20
+312            android:name="com.huawei.openalliance.ad.ppskit.activity.AgProtocolActivity"
+312-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:210:13-89
+313            android:configChanges="orientation|screenSize"
+313-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:211:13-59
+314            android:exported="false"
+314-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:212:13-37
+315            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+315-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:213:13-72
+316            <meta-data
+316-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+317                android:name="hwc-theme"
+317-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+318                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+318-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+319            <meta-data
+319-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+320                android:name="hnc-theme"
+320-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+321                android:value="androidhnext:style/Theme.magic.Translucent.NoTitleBar" />
+321-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+322        </activity>
+323        <activity
+323-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:221:9-239:20
+324            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSArActivity"
+324-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:222:13-84
+325            android:configChanges="orientation|keyboardHidden|screenSize"
+325-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:223:13-74
+326            android:exported="false"
+326-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:224:13-37
+327            android:screenOrientation="portrait"
+327-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:225:13-49
+328            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+328-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:226:13-71
+329            <intent-filter>
+329-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:227:13-231:29
+330                <action android:name="com.huawei.hms.pps.action.PPS_AR" />
+330-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:228:17-75
+330-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:228:25-72
+331
+332                <category android:name="android.intent.category.DEFAULT" />
+332-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+332-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+333            </intent-filter>
+334
+335            <meta-data
+335-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+336                android:name="hwc-theme"
+336-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+337                android:value="androidhwext:style/Theme.Emui.NoActionBar.Fullscreen" />
+337-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+338            <meta-data
+338-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+339                android:name="hnc-theme"
+339-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+340                android:value="androidhnext:style/Theme.magic.NoTitleBar.Fullscreen" />
+340-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+341        </activity>
+342        <activity
+342-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:240:9-263:20
+343            android:name="com.huawei.opendevice.open.OAIDSettingActivity"
+343-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:241:13-74
+344            android:configChanges="orientation|screenSize|keyboardHidden|screenLayout|smallestScreenSize"
+344-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:242:13-106
+345            android:exported="true"
+345-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:243:13-36
+346            android:label=""
+346-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:244:13-29
+347            android:theme="@android:style/Theme.DeviceDefault" >
+347-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:245:13-63
+348            <intent-filter>
+348-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:246:13-255:29
+349                <action android:name="android.intent.action.VIEW" />
+349-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+349-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+350
+351                <category android:name="android.intent.category.DEFAULT" />
+351-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+351-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+352                <category android:name="android.intent.category.BROWSABLE" />
+352-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+352-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+353
+354                <data
+354-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+355                    android:host="com.example.devapp"
+355-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+356                    android:scheme="hwppsprivacy" />
+356-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+357            </intent-filter>
+358
+359            <meta-data
+359-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+360                android:name="hwc-theme"
+360-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+361                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+361-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+362            <meta-data
+362-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+363                android:name="hnc-theme"
+363-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+364                android:value="androidhnext:style/Theme.magic.WithActionBar" />
+364-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+365        </activity>
+366        <activity
+366-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:264:9-287:20
+367            android:name="com.huawei.opendevice.open.PrivacyActivity"
+367-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:265:13-70
+368            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+368-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:266:13-106
+369            android:exported="true"
+369-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:267:13-36
+370            android:label=""
+370-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:268:13-29
+371            android:theme="@android:style/Theme.DeviceDefault" >
+371-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:269:13-63
+372            <intent-filter>
+372-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:270:13-279:29
+373                <action android:name="android.intent.action.VIEW" />
+373-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+373-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+374
+375                <category android:name="android.intent.category.DEFAULT" />
+375-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+375-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+376                <category android:name="android.intent.category.BROWSABLE" />
+376-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+376-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+377
+378                <data
+378-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+379                    android:host="com.example.devapp"
+379-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+380                    android:scheme="hwppsprivacydetail" />
+380-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+381            </intent-filter>
+382
+383            <meta-data
+383-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+384                android:name="hwc-theme"
+384-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+385                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+385-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+386            <meta-data
+386-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+387                android:name="hnc-theme"
+387-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+388                android:value="androidhnext:style/Theme.magic.WithActionBar" />
+388-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+389        </activity>
+390        <activity
+390-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:288:9-311:20
+391            android:name="com.huawei.opendevice.open.WhyThisAdStatementActivity"
+391-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:289:13-81
+392            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+392-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:290:13-106
+393            android:exported="true"
+393-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:291:13-36
+394            android:label=""
+394-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:292:13-29
+395            android:theme="@android:style/Theme.DeviceDefault" >
+395-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:293:13-63
+396            <intent-filter>
+396-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:294:13-303:29
+397                <action android:name="android.intent.action.VIEW" />
+397-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+397-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+398
+399                <category android:name="android.intent.category.DEFAULT" />
+399-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+399-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+400                <category android:name="android.intent.category.BROWSABLE" />
+400-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+400-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+401
+402                <data
+402-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+403                    android:host="com.example.devapp"
+403-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+404                    android:scheme="hwppsprivacyadinfo" />
+404-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+405            </intent-filter>
+406
+407            <meta-data
+407-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+408                android:name="hwc-theme"
+408-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+409                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+409-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+410            <meta-data
+410-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+411                android:name="hnc-theme"
+411-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+412                android:value="androidhnext:style/Theme.magic.WithActionBar" />
+412-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+413        </activity>
+414        <activity
+414-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:312:9-324:20
+415            android:name="com.huawei.opendevice.open.SimplePrivacyActivity"
+415-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:313:13-76
+416            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+416-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:314:13-106
+417            android:exported="false"
+417-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:315:13-37
+418            android:label=""
+418-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:316:13-29
+419            android:theme="@android:style/Theme.DeviceDefault" >
+419-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:317:13-63
+420            <meta-data
+420-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+421                android:name="hwc-theme"
+421-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+422                android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+422-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+423            <meta-data
+423-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+424                android:name="hnc-theme"
+424-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+425                android:value="androidhnext:style/Theme.magic.WithActionBar" />
+425-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+426        </activity>
+427        <activity
+427-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:325:9-337:20
+428            android:name="com.huawei.openalliance.ad.ppskit.activity.PPSFullScreenNotifyActivity"
+428-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:326:13-98
+429            android:configChanges="orientation|keyboardHidden|screenSize"
+429-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:327:13-74
+430            android:excludeFromRecents="true"
+430-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:328:13-46
+431            android:exported="false"
+431-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:329:13-37
+432            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+432-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:330:13-72
+433            <meta-data
+433-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+434                android:name="hwc-theme"
+434-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+435                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+435-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+436            <meta-data
+436-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+437                android:name="hnc-theme"
+437-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+438                android:value="androidhnext:style/Theme.magic.Translucent.NoTitleBar" />
+438-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+439        </activity>
+440
+441        <meta-data
+441-->[com.huawei.hms:ads-banner:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\a9cc6ac501816ab9582d20a70d919f1e\ads-banner-13.4.51.300\AndroidManifest.xml:13:9-15:54
+442            android:name="com.huawei.hms.client.service.name:ads-banner"
+442-->[com.huawei.hms:ads-banner:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\a9cc6ac501816ab9582d20a70d919f1e\ads-banner-13.4.51.300\AndroidManifest.xml:14:13-73
+443            android:value="ads-banner:13.4.51.300" />
+443-->[com.huawei.hms:ads-banner:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\a9cc6ac501816ab9582d20a70d919f1e\ads-banner-13.4.51.300\AndroidManifest.xml:15:13-51
+444        <meta-data
+444-->[com.huawei.hms:ads-template:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74b2f9b47e9b88b02edbd3d5dde9f337\ads-template-13.4.51.300\AndroidManifest.xml:13:9-15:56
+445            android:name="com.huawei.hms.client.service.name:ads-template"
+445-->[com.huawei.hms:ads-template:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74b2f9b47e9b88b02edbd3d5dde9f337\ads-template-13.4.51.300\AndroidManifest.xml:14:13-75
+446            android:value="ads-template:13.4.51.300" />
+446-->[com.huawei.hms:ads-template:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74b2f9b47e9b88b02edbd3d5dde9f337\ads-template-13.4.51.300\AndroidManifest.xml:15:13-53
+447        <meta-data
+447-->[com.huawei.hms:ads-native:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fa5ce937c4b2d4b1444413a118c880dc\ads-native-13.4.51.300\AndroidManifest.xml:13:9-15:54
+448            android:name="com.huawei.hms.client.service.name:ads-native"
+448-->[com.huawei.hms:ads-native:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fa5ce937c4b2d4b1444413a118c880dc\ads-native-13.4.51.300\AndroidManifest.xml:14:13-73
+449            android:value="ads-native:13.4.51.300" />
+449-->[com.huawei.hms:ads-native:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\fa5ce937c4b2d4b1444413a118c880dc\ads-native-13.4.51.300\AndroidManifest.xml:15:13-51
+450        <meta-data
+450-->[com.huawei.hms:ads-interstitial:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\3f94f5bae8173523d3f5a5c2a25bc5f6\ads-interstitial-13.4.51.300\AndroidManifest.xml:13:9-15:60
+451            android:name="com.huawei.hms.client.service.name:ads-interstitial"
+451-->[com.huawei.hms:ads-interstitial:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\3f94f5bae8173523d3f5a5c2a25bc5f6\ads-interstitial-13.4.51.300\AndroidManifest.xml:14:13-79
+452            android:value="ads-interstitial:13.4.51.300" />
+452-->[com.huawei.hms:ads-interstitial:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\3f94f5bae8173523d3f5a5c2a25bc5f6\ads-interstitial-13.4.51.300\AndroidManifest.xml:15:13-57
+453        <meta-data
+453-->[com.huawei.hms:ads-reward:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\d333338d714ab5a5092a446988114be5\ads-reward-13.4.51.300\AndroidManifest.xml:13:9-15:54
+454            android:name="com.huawei.hms.client.service.name:ads-reward"
+454-->[com.huawei.hms:ads-reward:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\d333338d714ab5a5092a446988114be5\ads-reward-13.4.51.300\AndroidManifest.xml:14:13-73
+455            android:value="ads-reward:13.4.51.300" />
+455-->[com.huawei.hms:ads-reward:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\d333338d714ab5a5092a446988114be5\ads-reward-13.4.51.300\AndroidManifest.xml:15:13-51
+456        <meta-data
+456-->[com.huawei.hms:ads-lang:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\9dbf830c2e2942fbf64a9bf3285247a4\ads-lang-13.4.51.300\AndroidManifest.xml:13:9-15:52
+457            android:name="com.huawei.hms.client.service.name:ads-lang"
+457-->[com.huawei.hms:ads-lang:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\9dbf830c2e2942fbf64a9bf3285247a4\ads-lang-13.4.51.300\AndroidManifest.xml:14:13-71
+458            android:value="ads-lang:13.4.51.300" />
+458-->[com.huawei.hms:ads-lang:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\9dbf830c2e2942fbf64a9bf3285247a4\ads-lang-13.4.51.300\AndroidManifest.xml:15:13-49
+459        <meta-data
+459-->[com.huawei.hms:ads-splash:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ca83dbe7f85c458574583316cf10f90b\ads-splash-13.4.51.300\AndroidManifest.xml:15:9-17:54
+460            android:name="com.huawei.hms.client.service.name:ads-splash"
+460-->[com.huawei.hms:ads-splash:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ca83dbe7f85c458574583316cf10f90b\ads-splash-13.4.51.300\AndroidManifest.xml:16:13-73
+461            android:value="ads-splash:13.4.51.300" />
+461-->[com.huawei.hms:ads-splash:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\ca83dbe7f85c458574583316cf10f90b\ads-splash-13.4.51.300\AndroidManifest.xml:17:13-51
+462        <meta-data
+462-->[com.huawei.hms:ads-instream:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\c98a43ac1d9288f29c468b4c54bbbb07\ads-instream-13.4.51.300\AndroidManifest.xml:13:9-15:56
+463            android:name="com.huawei.hms.client.service.name:ads-instream"
+463-->[com.huawei.hms:ads-instream:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\c98a43ac1d9288f29c468b4c54bbbb07\ads-instream-13.4.51.300\AndroidManifest.xml:14:13-75
+464            android:value="ads-instream:13.4.51.300" />
+464-->[com.huawei.hms:ads-instream:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\c98a43ac1d9288f29c468b4c54bbbb07\ads-instream-13.4.51.300\AndroidManifest.xml:15:13-53
+465        <meta-data
+465-->[com.huawei.hms:ads-jsbridge:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\e706f5e6179aaa055308e91dac36fed7\ads-jsbridge-3.4.51.300\AndroidManifest.xml:13:9-15:55
+466            android:name="com.huawei.hms.client.service.name:ads-jsbridge"
+466-->[com.huawei.hms:ads-jsbridge:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\e706f5e6179aaa055308e91dac36fed7\ads-jsbridge-3.4.51.300\AndroidManifest.xml:14:13-75
+467            android:value="ads-jsbridge:3.4.51.300" />
+467-->[com.huawei.hms:ads-jsbridge:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\e706f5e6179aaa055308e91dac36fed7\ads-jsbridge-3.4.51.300\AndroidManifest.xml:15:13-52
+468        <meta-data
+468-->[com.huawei.hms:ads-jsbridge:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\e706f5e6179aaa055308e91dac36fed7\ads-jsbridge-3.4.51.300\AndroidManifest.xml:16:9-18:33
+469            android:name="com.huawei.hms.min_api_level:pps-phone:adsbrainkit"
+469-->[com.huawei.hms:ads-jsbridge:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\e706f5e6179aaa055308e91dac36fed7\ads-jsbridge-3.4.51.300\AndroidManifest.xml:17:13-78
+470            android:value="1" />
+470-->[com.huawei.hms:ads-jsbridge:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\e706f5e6179aaa055308e91dac36fed7\ads-jsbridge-3.4.51.300\AndroidManifest.xml:18:13-30
+471        <meta-data
+471-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:20:9-22:52
+472            android:name="com.huawei.hms.client.service.name:ads-base"
+472-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:21:13-71
+473            android:value="ads-base:13.4.51.300" />
+473-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:22:13-49
+474
+475        <activity
+475-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:24:9-45:20
+476            android:name="com.huawei.openalliance.ad.activity.PPSLauncherActivity"
+476-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:25:13-83
+477            android:exported="true"
+477-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:26:13-36
+478            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+478-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:27:13-72
+479            <intent-filter>
+479-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:28:13-37:29
+480                <action android:name="android.intent.action.VIEW" />
+480-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+480-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+481
+482                <category android:name="android.intent.category.DEFAULT" />
+482-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+482-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+483                <category android:name="android.intent.category.BROWSABLE" />
+483-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+483-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+484
+485                <data
+485-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+486                    android:host="com.example.devapp"
+486-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+487                    android:scheme="hwpps" />
+487-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\997262d7f00118c57e855a684626a99d\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+488            </intent-filter>
+489
+490            <meta-data
+490-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+491                android:name="hwc-theme"
+491-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+492                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+492-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+493            <meta-data
+493-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+494                android:name="hnc-theme"
+494-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+495                android:value="androidhnext:style/Theme.magic.Translucent.NoTitleBar" />
+495-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+496        </activity>
+497        <activity
+497-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:46:9-56:20
+498            android:name="com.huawei.openalliance.ad.activity.PPSBridgeActivity"
+498-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:47:13-81
+499            android:exported="false"
+499-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:48:13-37
+500            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+500-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:49:13-72
+501            <meta-data
+501-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+502                android:name="hwc-theme"
+502-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+503                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+503-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+504            <meta-data
+504-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+505                android:name="hnc-theme"
+505-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+506                android:value="androidhnext:style/Theme.magic.Translucent.NoTitleBar" />
+506-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+507        </activity>
+508        <activity
+508-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:57:9-67:20
+509            android:name="com.huawei.openalliance.ad.activity.PPSNotificationActivity"
+509-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:58:13-87
+510            android:exported="false"
+510-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:59:13-37
+511            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+511-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:60:13-72
+512            <meta-data
+512-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+513                android:name="hwc-theme"
+513-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+514                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+514-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+515            <meta-data
+515-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+516                android:name="hnc-theme"
+516-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+517                android:value="androidhnext:style/Theme.magic.Translucent.NoTitleBar" />
+517-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+518        </activity>
+519        <activity
+519-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:68:9-79:20
+520            android:name="com.huawei.openalliance.ad.activity.AgProtocolActivity"
+520-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:69:13-82
+521            android:configChanges="orientation|screenSize"
+521-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:70:13-59
+522            android:exported="false"
+522-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:71:13-37
+523            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+523-->[com.huawei.hms:ads-base:13.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\86a88856e4a48b2361c9e7eab8d7d41c\ads-base-13.4.51.300\AndroidManifest.xml:72:13-72
+524            <meta-data
+524-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:69:13-71:82
+525                android:name="hwc-theme"
+525-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:70:17-41
+526                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+526-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:71:17-79
+527            <meta-data
+527-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:72:13-74:83
+528                android:name="hnc-theme"
+528-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:73:17-41
+529                android:value="androidhnext:style/Theme.magic.Translucent.NoTitleBar" />
+529-->[com.huawei.hms:ads-core:3.4.51.300] C:\Users\Devin\.gradle\caches\transforms-2\files-2.1\74d2381e88b75f0ef5c96755c107f583\ads-core-3.4.51.300\AndroidManifest.xml:74:17-80
+530        </activity>
+531    </application>
+532
+533</manifest>

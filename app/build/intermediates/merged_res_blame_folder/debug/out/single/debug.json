@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_laliga.png.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\drawable\\laliga.png"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_3.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\layout\\activity_3.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_bg.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\drawable\\edittext_bg.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ligue.jpg.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\drawable\\ligue.jpg"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_7.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\layout\\activity_7.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.png.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_serie.jpg.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\drawable\\serie.jpg"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up_email.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\layout\\activity_sign_up_email.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_2.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\layout\\activity_2.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_bg.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\drawable\\shape_bg.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_email.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\layout\\activity_login_email.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_4.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\layout\\activity_4.xml"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_english.png.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\drawable\\english.png"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_adapter.xml.flat",
+        "source": "D:\\Devin Files\\HuaweiProject\\app\\src\\main\\res\\layout\\layout_adapter.xml"
+    }
+]

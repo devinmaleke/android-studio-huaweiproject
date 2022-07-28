@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1047512701009-sigpfcjetvmidbh27t589kvc4i0l7k0f.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1047512701009</string>
+    <string name="google_api_key" translatable="false">AIzaSyByK48X70sHBg3Wm5wNFkrWs3cVG89Qdv8</string>
+    <string name="google_app_id" translatable="false">1:1047512701009:android:b70a79d58150b3e1aa8070</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyByK48X70sHBg3Wm5wNFkrWs3cVG89Qdv8</string>
+    <string name="google_storage_bucket" translatable="false">huaweiproject-efd1a.appspot.com</string>
+    <string name="project_id" translatable="false">huaweiproject-efd1a</string>
+</resources>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Devin Files\\HuaweiProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Devin\\.gradle\\caches\\transforms-2\\files-2.1\\74d2381e88b75f0ef5c96755c107f583\\ads-core-3.4.51.300\\res\\values-v19\\values-v19.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,230",
+                        "endLines": "4,5",
+                        "endColumns": "12,118",
+                        "endOffsets": "225,344"
+                    }
+                }
+            ]
+        }
+    ]
+}
