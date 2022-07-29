@@ -1,19 +1,14 @@
 # README.md 
 This is a project that I made for HUAWEI DEVELOPER
 
-I made this mobile application using Android Studio. This app contains list of football teams from several leagues (English, Spanish, Italian, French).
+I made this mobile application using Android Studio. This app contains list of football teams from several leagues (English, Spanish, Italian, French).<br />
+I used HUAWEI API which is "Banner Ads".<br />
+I use google firebase for user login database.<br />
 
-I used HUAWEI API which is "Banner Ads".
+You can Sign Up and Login with your own email and password<br />
+OR<br />
+You can use this as an account test.<br />
 
-I use google firebase for user login database.\n
-
-You can Sign Up and Login with your own email and password\n
-
-OR\n
-
-You can use this as a account test.\n
-
-Email: siri@cyclone.com\n
-
+Email: siri@cyclone.com<br />
 Password: qwertyuiop
 
